@@ -16,22 +16,23 @@ Consume 1000000 records in 519.069625ms
 Masing-masing running di docker dengan 1 broker.
 
 Summary:
-Advantage Kafka
-High throughput
-Low latency
-Resistance to node/machine failure within a cluster
-Data persist on disk
-Scalability
-Distributed
+* Advantage Kafka
+* High throughput
+* Low latency
+* Resistance to node/machine failure within a cluster
+* Data persist on disk
+* Scalability
+* Distributed
+
 Disadvantages of Kafka
-Only listen specific topic defined
-Require Zookeeper
+* Only listen specific topic defined
+* Require Zookeeper
 
 Advantage of Redpanda
-Implement all Kafka API
-Single binary to deploy
-Any library built for Kafka are inter-operable for Redpanda
-Up to 6x faster Kafka transactions
+* Implement all Kafka API
+* Single binary to deploy
+* Any library built for Kafka are inter-operable for Redpanda
+* Up to 6x faster Kafka transactions
 
 For references:
 https://redpanda.com/platform/
